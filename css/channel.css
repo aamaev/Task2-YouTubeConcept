@@ -1,0 +1,299 @@
+*{
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-size: 13px;
+}
+
+a{
+    text-decoration: none;
+    color: #898989;
+    font-weight: 100;
+}
+
+img{
+    max-width: 100%;
+}
+
+.extra_margin{
+    margin-top: 30px;
+}
+
+.home{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px 13px 30px; 
+    height: 60px;
+}
+
+.header__rightside{
+    display: flex;
+    align-items: center;
+}
+
+.header__rightside > a{
+    margin-left: 30px;
+}
+
+.header__center{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    position: relative;
+}
+
+.header__center input{
+    margin-left: 2px;
+    background: #EBEBEB;
+    border-color: #EBEBEB;
+    opacity: 0.3;
+    border-radius: 22px;
+    height: 25px;
+    width: 59%;
+    outline: none;
+}
+
+.header__center img{
+    position: absolute;
+    left: 56.5%;
+}
+
+.header__leftside{
+    display: flex;
+    align-items: center;
+}
+
+.header__leftside img{
+   max-width: 80%;
+}
+
+.header__leftside__logo{
+    margin-left: 20px;
+}
+
+.wrapper__main{
+    display: flex;
+    width: 100%;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    font-weight: 100;
+}
+
+.sidebar li{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 5px 30px 15px 0px;
+    color: #898989;
+}
+
+.sidebar__menu img{
+    margin-left: 19px;
+    width: 8%;
+}
+
+.sidebar__menu a{
+    margin-top: 2px;
+    margin-left: 14px;
+}
+
+.sidebar__subs a{
+    margin-left: 14px;
+}
+
+.sidebar__subspr{
+    margin: 25px 18px 10px 18px;
+    font-weight: 700;
+}
+
+.sidebar__subs img{
+    margin-left: 19px;
+    width: 20px;
+}
+
+.main{
+    width: 87%;
+}
+
+.channelinfo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.channelinfo__leftside{
+    display: flex;
+    align-items: center;
+}
+
+.channelinfo__leftside p{
+    margin-left: 20px;
+}
+
+.channelinfo__leftside div p:first-child{
+    font-size: 26px;
+}
+
+.channelinfo__leftside div p:last-child{
+    font-size: 13px;
+    color: #C2C2C2;
+}
+
+.channelinfo__rightside{
+    display: flex;
+    align-items: center;
+}
+
+.channelinfo__rightside img{
+    margin-left: 30px;
+}
+
+.channelmain{
+    display: flex;
+    justify-content: space-between;
+}
+
+.channelmain__menu{
+    display: flex;
+}
+
+.channelmain__menu li{
+    margin: 20px;    
+}
+
+.channelmain__video{
+    display: flex;
+}
+
+.channelmain__video__text{
+    width: 40%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.channelmain__video__text__name{
+    font-size: 26px;
+}
+
+.channelmain__video__text__descr{
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.channelmain__video__text__views{
+    color: #C2C2C2; 
+}
+
+.recommended{
+    width: 25%;
+}
+
+.recommended li{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.recommended li:first-child{
+    font-size: 16px;
+    color: #C2C2C2;
+}
+
+
+.recommended a{
+    margin-left: 15px;
+    font-size: 18px;
+    color: #000000;
+}
+
+.bottomvideos{
+    margin-top: 35px;
+}
+
+.bottomvideos__videos{
+    display: flex;  
+    justify-content: space-between;
+}
+
+.bottomvideos__topic__name{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.bottomvideos__topic__suggestions{
+    font-size: 26px;
+    display: flex;
+}
+
+.bottomvideos__videoitem:nth-child(1){
+    margin: 20px 0px 20px 0px;
+}
+
+.bottomvideos__videoitem:nth-child(n+2){
+    margin: 20px 0px 20px 40px;
+}
+
+.bottomvideos__videoitem__cover{
+    position: relative;
+    width: auto;
+}
+
+.bottomvideos__videoitem__time{
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    font-size: 12px;
+    color: #ffffff;
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.bottomvideos__videoitem__name{
+    font-size: 16;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+
+.bottomvideos__videoitem__info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottomvideos__videoitem__info > p{
+    font-size: 8px;
+    color: #C2C2C2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
