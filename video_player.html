@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Margaret Phelps</title>
-    <link rel="stylesheet" media="screen and (max-width: 400px)" href="./css/video_player_media.css">
-    <link rel="stylesheet" media="screen and (min-width: 401px)" href="./css/video_player.css">
+    <link rel="stylesheet" media="screen and (max-width: 400px)" href="./css/media/video_player/video_player_media.css">
+    <link rel="stylesheet" media="screen and (min-width: 401px)" href="./css/fullscreen/video_player/video_player.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
@@ -15,66 +15,99 @@
     <div class="home">
         <div class="header">
             <div class="header__leftside">
-                <a href="#" class="header__leftside__menu"><img src="./img/home/header/menu.svg" alt=""></a>
-                <a href="#" class="header__leftside__logo"><img src="./img/home/header/logo.svg" alt=""></a> 
+                <a href="#" class="header__leftside__menu"><img src="./img/home_header_menu.svg" alt=""></a>
+                <a href="#" class="header__leftside__logo"><img src="./img/home_header_logo.svg" alt=""></a> 
             </div>
             <div class="header__center"> 
                 <input type="text" name="" placeholder="    Search">
-                <img src="./img/home/header/search.svg" alt="">
+                <img src="./img/home_header_search.svg" alt="">
             </div>
             <div class="header__rightside">
-                <a href="#" class="header__loadvideo"><img src="./img/home/header/loadvideo.svg" alt=""></a>
-                <a href="#" class="header__settings"><img src="./img/home/header/settings.svg" alt=""></a>
-                <a href="#" class="header__notifications"><img src="./img/home/header/notifications.svg" alt=""></a>
-                <a href="#" class="header__useravatar"><img src="./img/home/header/useravatar.svg" alt=""></a>
+                <a href="#" class="header__loadvideo"><img src="./img/home_header_loadvideo.svg" alt=""></a>
+                <a href="#" class="header__settings"><img src="./img/home_header_settings.svg" alt=""></a>
+                <a href="#" class="header__notifications"><img src="./img/home_header_notifications.svg" alt=""></a>
+                <a href="#" class="header__useravatar"><img src="./img/home_header_useravatar.svg" alt=""></a>
+                <div class="media"><a href="#" class="header__settings_media"><img src="./img/channel_header_settings.svg" alt=""></a></div>
             </div>
         </div> 
         <div class="wrapper__main">
+            <div class="sidebar media">
+                <ul class="sidebar__menu">
+                    <li><img src="./img/home_menu_home.svg"><a href="#"><span class="red">Home</span></a></li>
+                    <li><img src="./img/home_menu_trending.svg"><a href="#">Trending</a></li>
+                    <li><img src="./img/home_menu_subscriptions.svg"><a href="#">Subscriptions</a></li> 
+                    <li><img src="./img/home_menu_library.svg"><a href="#">Library</a></li>
+                    <li><img src="./img/home_menu_history.svg"><a href="#">History</a></li>
+                    <li><img src="./img/home_menu_watchlater.svg"><a href="#">Watch later</a></li>
+                    <li><img src="./img/home_menu_favourites.svg"><a href="#">Favourites</a></li>
+                    <li><img src="./img/home_menu_likedvideos.svg"><a href="#">Liked videos</a></li>
+                    <li><img src="./img/home_menu_music.svg"><a href="#">Music</a></li>
+                    <li><img src="./img/home_menu_games.svg"><a href="#">Games</a></li>
+                    <li><img src="./img/home_menu_showmore.svg"><a href="#">Show more</a></li>
+                </ul>
+                <p class="sidebar__subspr">Subscriptions</p>
+                <ul class="sidebar__subs">
+                    <li><img src="./img/home_menu_avatar1.svg" alt="Gussie Singleton"><a href="#">Gussie Singleton</a></li>
+                    <li><img src="./img/home_menu_avatar2.svg" alt="Nora Francis"><a href="#">Nora Francis</a></li>
+                    <li><img src="./img/home_menu_avatar3.svg" alt="Belle Briggs"><a href="#">Belle Briggs</a></li>
+                    <li><img src="./img/home_menu_avatar4.svg" alt="Eunice Cortez"><a href="#">Eunice Cortez</a></li>
+                    <li><img src="./img/home_menu_avatar5.svg" alt="Emma Hanson"><a href="#">Emma Hanson</a></li>
+                    <li><img src="./img/home_menu_avatar6.svg" alt="Leah Berry"><a href="#">Leah Berry</a></li>
+                </ul>
+                <ul class="sidebar__menu extra_margin">
+                    <li><img src="./img/home_menu_settings.svg"><a href="#">Setting</a></li>
+                </ul>
+            </div>
             <div class="main__left">
                 <div class="main__left__playingvideo">
                     <div class="main__left__playingvideo__player">
-                        <img src="./img/video_player/player/videocaver.svg" alt="">
+                        <img class="hideinmedia" src="./img/video_player_player_videocaver.svg" alt="">
+                        <img class="media" src="./img/video_player_player_videocaver_media.svg" alt="">
                         <div class="main__left__playingvideo__bar">
                             <div class="main__left__playingvideo__bar__time">
                                 <p>1:34</p>
                                 <p>19:00</p>
                             </div>
                             <dir class="main__left__playingvideo__bar__timebar">
-                                <img src="./img/video_player/player/progressbar.svg" alt="">
+                                <img src="./img/video_player_player_progressbar.svg" alt="">
+                                <img class="media" src="./img/video_player_player_progressbar_media.svg" alt="">
                             </dir>
                             <div class="main__left__playingvideo__bar__buttons">
                                 <div>
-                                    <img src="./img/video_player/player/pause.svg" alt="">
-                                    <img src="./img/video_player/player/next.svg" alt="">
-                                    <img src="./img/video_player/player/volume.svg" alt="">
-                                    <img src="./img/video_player/player/volumebar.svg" alt="">
+                                    <img src="./img/video_player_player_pause.svg" alt="">
+                                    <img src="./img/video_player_player_next.svg" alt="">
+                                    <img src="./img/video_player_player_volume.svg" alt="">
+                                    <img src="./img/video_player_player_volumebar.svg" alt="">
                                 </div>
                                 <div>
-                                    <img src="./img/video_player/player/subtitles.svg" alt="">
-                                    <img src="./img/video_player/player/settings.svg" alt="">
-                                    <img src="./img/video_player/player/size.svg" alt="">
-                                    <img src="./img/video_player/player/fullScreen.svg" alt="">
+                                    <img src="./img/video_player_player_subtitles.svg" alt="">
+                                    <img src="./img/video_player_player_settings.svg" alt="">
+                                    <img src="./img/video_player_player_size.svg" alt="">
+                                    <img src="./img/video_player_player_fullScreen.svg" alt="">
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="main__left__playingvideo__videoname_div">  
+                        <p class="main__left__playingvideo__videoname">Dude You Re Getting A Telescope</p>
+                        <img class="media" src="./img/main__left__playingvideo__arrow.svg" alt="">
+                    </div>
                     
-                    <p class="main__left__playingvideo__videoname">Dude You Re Getting A Telescope</p>
                     <div class="main__left__playingvideo__bar__reactbutton">
                         <div class="main__left__playingvideo__bar__reactbutton__right">
                             <p>123k views</p>
                         </div>
                         <div class="main__left__playingvideo__bar__reactbutton__left">
-                            <p class="main__left__playingvideo__bar__reactbutton__left__item"><img src="./img/video_player/channeldesc/like.svg" alt="">123k</p>
-                            <p class="main__left__playingvideo__bar__reactbutton__left__item"><img src="./img/video_player/channeldesc/dislike.svg" alt="">435k</p>
-                            <p class="main__left__playingvideo__bar__reactbutton__left__item"><img src="./img/video_player/channeldesc/share.svg" alt="">Share</p>
-                            <p class="main__left__playingvideo__bar__reactbutton__left__item"><img src="./img/video_player/channeldesc/more.svg" alt=""></p>
+                            <div class="main__left__playingvideo__bar__reactbutton__left__item"><img src="./img/video_player_channeldesc_like.svg" alt=""><p>123k</p></div>
+                            <div class="main__left__playingvideo__bar__reactbutton__left__item"><img src="./img/video_player_channeldesc_dislike.svg" alt=""><p>435k</p></div>
+                            <div class="main__left__playingvideo__bar__reactbutton__left__item"><img src="./img/video_player_channeldesc_share.svg" alt=""><p>Share</p></div>
+                            <div class="main__left__playingvideo__bar__reactbutton__left__item"><img src="./img/video_player_channeldesc_more.svg" alt=""></div>
                         </div>
                     </div>
                 </div>
                 <div class="main__left__channeldesc">
                     <div class="main__left__channeldesc__left">
-                        <img src="./img/video_player/channeldesc/cover.svg" alt="">
+                        <img src="./img/video_player_channeldesc_cover.svg" alt="">
                         <div class="main__left__channeldesc__left__block">
                             <p>Food & Drink</p>
                             <p>Published on 14 Jun 2019</p>
@@ -85,9 +118,11 @@
                                 they see your ad. 
                             </p>
                             <p>Show more</p>
+                            <p class="media subs">245K subscribed</p>
                         </div>
                     </div>
-                    <img class="main__left__channeldesc__right" src="./img/video_player/channeldesc/subscribebutton.svg" alt=""> 
+                    <img class="main__left__channeldesc__right" src="./img/video_player_channeldesc_subscribebutton.svg" alt=""> 
+                    <a class="media subscribe_media_button" href="">Subscribe</a>
                 </div>
             </div>
 
@@ -97,53 +132,56 @@
                         <h1>Next</h1>
                         <div class="main__right__videos__nextbutton__autoplay">
                             <p>AUTOPLAY</p>
-                            <img src="./img/video_player/nextvideos/autoplay.svg" alt="">
+                            <img src="./img/video_player_nextvideos_autoplay.svg" alt="">
                         </div>
                     </div>
                     <div class="main__right__videoitem">
                         <div class="main__right__videoitem__cover">
-                            <img src="./img/video_player/nextvideos/cover1.svg">
-                            <p class="main__right__videoitem__time">8:00</p>
+                            <img src="./img/video_player_nextvideos_cover1.svg">
+                            <img class="media" src="./img/video_player_nextvideos_cover1_media.svg">
+                            
+                            <div class="main__right__videoitem__time"><p class="main__right__videoitem__timenumber">7:36</p></div>
                         </div>
                         <p class="main__right__videoitem__name">Baby Monitor Technology</p>
                         <div class="main__right__videoitem__info">
-                            <p class="main__right__videoitem__views">240k views</p>
+                            <p class="main__right__videoitem__views">123k views</p>
                             <p class="main__right__videoitem__author">Dollie Blair</p>
                         </div>
                     </div>
 
                     <div class="main__right__videoitem">
                         <div class="main__right__videoitem__cover">
-                            <img src="./img/video_player/nextvideos/cover2.svg">
-                            <p class="main__right__videoitem__time">8:00</p>
+                            <img src="./img/video_player_nextvideos_cover2.svg">
+                            <img class="media" src="./img/video_player_nextvideos_cover2_media.svg">
+                            <div class="main__right__videoitem__time"><p class="main__right__videoitem__timenumber">2:19</p></div>
                         </div>
                         <p class="main__right__videoitem__name">A Good Autoresponder</p>
                         <div class="main__right__videoitem__info">
-                            <p class="main__right__videoitem__views">240k views</p>
+                            <p class="main__right__videoitem__views">123k views</p>
                             <p class="main__right__videoitem__author">Dollie Blair</p>
                         </div>
                     </div>
 
                     <div class="main__right__videoitem">
                         <div class="main__right__videoitem__cover">
-                            <img src="./img/video_player/nextvideos/cover3.svg">
-                            <p class="main__right__videoitem__time">8:00</p>
+                            <img src="./img/video_player_nextvideos_cover3.svg">
+                            <div class="main__right__videoitem__time"><p class="main__right__videoitem__timenumber">8:00</p></div>
                         </div>
                         <p class="main__right__videoitem__name">Selecting The Right Hotel</p>
                         <div class="main__right__videoitem__info">
-                            <p class="main__right__videoitem__views">240k views</p>
+                            <p class="main__right__videoitem__views">123k views</p>
                             <p class="main__right__videoitem__author">Dollie Blair</p>
                         </div>
                     </div>
 
                     <div class="main__right__videoitem">
                         <div class="main__right__videoitem__cover">
-                            <img src="./img/video_player/nextvideos/cover4.svg">
-                            <p class="main__right__videoitem__time">8:00</p>
+                            <img src="./img/video_player_nextvideos_cover4.svg">
+                            <div class="main__right__videoitem__time"><p class="main__right__videoitem__timenumber">8:00</p></div>
                         </div>
                         <p class="main__right__videoitem__name">Selecting The Right Hotel</p>
                         <div class="main__right__videoitem__info">
-                            <p class="main__right__videoitem__views">240k views</p>
+                            <p class="main__right__videoitem__views">123k views</p>
                             <p class="main__right__videoitem__author">Dollie Blair</p>
                         </div>
                     </div>

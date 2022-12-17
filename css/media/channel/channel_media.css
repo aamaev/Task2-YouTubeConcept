@@ -1,0 +1,248 @@
+.channelmain__video, .sidebar__subspr, .header__leftside__menu,
+.header__center input, .header__loadvideo, .header__settings, .header__notifications, .recommended,
+.channelinfo__rightside img:nth-child(1), .channelmain__menu li:nth-child(n+5),
+.bottomvideos__topic, .channelbackground img:first-child, .header__leftside__logo, .header__useravatar,
+.bottomvideos__videoitem__cover img:first-child, .bottomvideos__videos div:nth-child(n+4){
+   display: none; 
+}
+
+*{
+   font-family: 'Mulish', sans-serif;
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden;
+   font-size: 14px;
+}
+
+a{
+   text-decoration: none;
+}
+
+
+.red{
+   color: red;
+   font-weight: 400;
+   font-size: 10px;
+   line-height: 13px;
+}
+
+.home{
+   width: 100%;
+   height: 100%;
+}
+
+.wrapper__main{
+   display: flex;
+   justify-content: center;
+}
+
+.header{
+   display: flex;
+   height: 59px;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.header__center img{
+   margin-bottom: 9px;
+   margin-right: 7px;
+}
+
+.header__rightside{
+   margin-bottom: 9px;
+}
+
+.header__leftside{
+   display: flex;
+}
+
+.header__leftside__name{
+   margin-left: 13px;
+   margin-top: 2px;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 20px;
+   color: #19202C;
+   letter-spacing: 0.3px;
+}
+
+.header__leftside__logoYT{
+   margin-bottom: 12px;
+   margin-right: -7px;
+}
+
+.channelbackground{
+   position: relative;
+}
+
+.channelbackground img{
+
+   height: 100px;
+}
+
+.channelinfo{ 
+   position: absolute;
+   top: 123px;
+   left: 5px;
+}
+
+.channelinfo img:first-child{ 
+   width: 43%;
+}
+
+.channelinfo__rightside img{ 
+   width: 79%;
+   margin-top: 16px;
+}
+
+.channelmain__menu{
+   margin-top: 161px;
+   margin-right: 16px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.channelmain__menu ul li a:first-child{
+   color: red;
+}
+
+
+.channelmain__menu a{
+   color: #000000;
+}
+
+.channelinfo__rightside{
+   margin: 5px 10px 0px 10px;
+}
+
+.channelinfo__leftside{
+   margin-left: 11px;
+}
+
+.channelinfo__channelname{
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 25px;
+   color: #19202C;
+   margin-top: -1px;
+   letter-spacing: 0.4px;
+}
+
+.channelinfo__subscribecount{
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 15px;
+   color: #C2C2C2;
+   margin-top: 4px;
+}
+
+.sidebar ul:nth-child(1) li:nth-child(n+5){
+   display: none;
+}
+
+.sidebar ul:nth-child(3){
+   display: none;
+}
+
+.sidebar ul:nth-child(4){
+   display: none;
+}
+
+.sidebar__menu{
+   margin-left: 7px;
+   width: 95%;
+   height: 61px;
+   display: flex;
+   justify-content: space-between;
+   align-items: baseline;
+   background: #ffffff;
+   border-color: #F1F1F1;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+}
+
+.sidebar__menu a{
+   margin-top: 5px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 10px;
+   line-height: 13px;   
+   color: #898989;
+}
+
+.sidebar__menu li{
+   margin-top: 14px;
+   width: 62px;
+   height: 35px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.bottomvideos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottomvideos__videoitem:first-child{
+   margin-top: 22.5px;
+}
+
+.bottomvideos__videoitem:nth-child(n+2){
+   margin-top: 27.5px;
+}
+
+.bottomvideos__videoitem__cover{
+   position: relative;
+   width: auto;
+}
+
+.bottomvideos__videoitem__timenumber{
+   font-weight: 400;
+   font-size: 14px;
+   color: #ffffff;
+   position: absolute;
+   left: 19%;
+   top: 2px;
+   right: 0%;
+}
+
+.bottomvideos__videoitem__time{
+   position: absolute;
+   left: 80.3%;
+   right: 3.9%;
+   top: 77%;
+   bottom: 8%;
+   background: #000000;
+   mix-blend-mode: normal;
+   opacity: 0.3;
+   border-radius: 12px;
+}
+
+.bottomvideos__videoitem__name{
+   font-size: 16px;
+   font-weight: bold;
+   margin: 6px 0;
+   letter-spacing: 0.3px;
+}
+
+.bottomvideos__videoitem__info{
+   display: flex;
+   justify-content: space-between;
+}
+
+.bottomvideos__videoitem__info > p{
+   font-size: 13px;
+   color: #C2C2C2;
+}
+
+
+
+
+
+
+

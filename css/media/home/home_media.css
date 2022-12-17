@@ -1,0 +1,156 @@
+.recommended, .recommendedchannel, .sidebar__subspr, .header__leftside__menu,
+.header__center input, .header__loadvideo, .header__settings, .header__notifications, .favchannel__topic,
+.favchannel__videos div:nth-child(n+5), .favchannel__videoitem__cover img:first-child{
+   display: none; 
+}
+
+*{
+   font-family: 'Mulish', sans-serif;
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden;
+   font-size: 13px;
+}
+
+a{
+   text-decoration: none;
+}
+
+img{
+   max-width: 100%;
+}
+
+.red{
+   color: red;
+   font-weight: 400;
+   font-size: 10px;
+   line-height: 13px;
+}
+
+.home{
+   width: 100%;
+   height: 100%;
+}
+
+.wrapper__main{
+   display: flex;
+   justify-content: center;
+}
+
+.header{
+   display: flex;
+   height: 60px;
+}
+
+.header__leftside__logo img{
+   padding: 12px 3px 6px 16px;
+}
+
+.header__center img{
+   padding: 15px 20px 0px 96px;
+}
+
+.header__useravatar img{
+   width: 70%;
+   margin: 9px 0px 0px 3.5px;
+}
+
+.sidebar ul:nth-child(1) li:nth-child(n+5){
+   display: none;
+}
+
+.sidebar ul:nth-child(3){
+   display: none;
+}
+
+.sidebar ul:nth-child(4){
+   display: none;
+}
+
+.sidebar__menu{
+   margin-left: 7px;
+   width: 95%;
+   height: 61px;
+   display: flex;
+   justify-content: space-between;
+   align-items: baseline;
+   background: #ffffff;
+   border-color: #F1F1F1;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+}
+
+.sidebar__menu a{
+   margin-top: 5px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 10px;
+   line-height: 13px;   
+   color: #898989;
+}
+
+.sidebar__menu li{
+   margin-top: 14px;
+   width: 62px;
+   height: 35px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.favchannel__videoitem:nth-child(n+2){
+   margin-top: 29px;
+}
+
+.favchannel__videoitem__cover{
+   position: relative;
+   width: auto;
+}
+
+.favchannel__videoitem__timenumber{
+   font-weight: 400;
+   font-size: 14px;
+   color: #ffffff;
+   position: absolute;
+   left: 19%;
+   top: 3px;
+   right: 0%;
+}
+
+.favchannel__videoitem__time{
+   position: absolute;
+   left: 80.3%;
+   right: 3.7%;
+   top: 76%;
+   bottom: 8%;
+   background: #000000;
+   mix-blend-mode: normal;
+   opacity: 0.3;
+   border-radius: 12px;
+}
+
+.favchannel__videoitem__name{
+   font-size: 16px;
+   font-weight: bold;
+   margin: 5px 0;
+   letter-spacing: 0.3px;
+}
+
+.favchannel__videoitem__info{
+   display: flex;
+    justify-content: space-between;
+}
+
+.favchannel__videoitem__info > p{
+   font-size: 13px;
+   color: #C2C2C2;
+}
+
+
+
+
+
+
+
