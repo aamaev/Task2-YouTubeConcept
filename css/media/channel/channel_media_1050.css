@@ -186,7 +186,6 @@ img{
 
 .sidebar__subspr{
     margin: 56px 0px 33px 30px;
-    font-family: 'Mulish';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -207,7 +206,6 @@ img{
 
 .sidebar__subs a{
     margin-left: 9px;
-    font-family: 'Mulish';
     font-style: normal;
     font-weight: 100;
     font-size: 16px;
@@ -244,7 +242,6 @@ img{
 }
 
 .channelinfo__leftside div p:first-child{
-    font-family: 'Mulish';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -253,7 +250,6 @@ img{
 }
 
 .channelinfo__leftside div p:last-child{
-    font-family: 'Mulish';
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -298,7 +294,6 @@ img{
 
 .channelmain__menu li{
     margin: 21px 72px 20px 0px;
-    font-family: 'Mulish';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -315,7 +310,6 @@ img{
 }
 
 .channelmain__video__text__name{
-    font-family: 'Mulish';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -325,7 +319,6 @@ img{
 }
 
 .channelmain__video__text__descr{
-    font-family: 'Mulish';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -338,7 +331,6 @@ img{
 }
 
 .channelmain__video__text__views{
-    font-family: 'Mulish';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -368,7 +360,6 @@ img{
 
 .recommended a{
     margin-left: 19.3px;
-    font-family: 'Mulish';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -389,7 +380,6 @@ img{
 }
 
 .bottomvideos__topic__left{
-    font-family: 'Mulish';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -460,7 +450,6 @@ img{
 
 .bottomvideos__videoitem__name{
     margin: 6px 0;
-    font-family: 'Mulish';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -474,7 +463,6 @@ img{
 }
 
 .bottomvideos__videoitem__info p{
-    font-family: 'Mulish';
     font-style: normal;
     font-weight: 100;
     font-size: 13px;

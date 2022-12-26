@@ -202,6 +202,18 @@ a{
     overflow-x: auto;
 }
 
+.favchannel__videos::-webkit-scrollbar { 
+    width: 0;
+ }
+
+ .recommended__videos::-webkit-scrollbar { 
+    width: 0;
+ }
+
+ .recommendedchannel__videos::-webkit-scrollbar { 
+    width: 0;
+ }
+
 .favchannel__topic{
     display: flex;
     justify-content: space-between;
@@ -225,7 +237,6 @@ a{
 
 .topic__left h1{
     margin-top: 1px;
-    font-family: 'Mulish';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -331,7 +342,6 @@ a{
 
 .favchannel__videoitem__name{
     margin: 6px 0px 4px 0;
-    font-family: 'Mulish';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -345,7 +355,6 @@ a{
 }
 
 .favchannel__videoitem__info p{
-    font-family: 'Mulish';
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -401,7 +410,6 @@ a{
 
 .recommended__videoitem__name{
     margin: 6px 0px 4px 0;
-    font-family: 'Mulish';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -415,7 +423,6 @@ a{
 }
 
 .recommended__videoitem__info p{
-    font-family: 'Mulish';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -424,7 +431,6 @@ a{
 }
 
 .recommendedchannel__topic__name{
-    font-family: 'Mulish';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -434,7 +440,6 @@ a{
 
 .recommendedchannel__topic__suggestions{
     margin-top: 6px;
-    font-family: 'Mulish';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -502,7 +507,6 @@ a{
 }
 
 .recommendedchannel__videoitem__info p{
-    font-family: 'Mulish';
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
