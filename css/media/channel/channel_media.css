@@ -1,3 +1,18 @@
+@font-face {
+   font-family: "Mulish"; 
+   src: url("/fonts/Mulish/static/Mulish-ExtraLight.ttf") format("truetype"); 
+   font-style: normal; 
+   font-weight: 100; 
+} 
+
+@font-face {
+   font-family: "Mulish"; 
+   src: url("/fonts/Mulish/static/Mulish-Bold.ttf") format("truetype"); 
+   font-style: normal; 
+   font-weight: 700; 
+} 
+
+
 .channelmain__video, .sidebar__subspr, .header__leftside__menu,
 .header__center input, .header__loadvideo, .header__settings, .header__notifications, .recommended,
 .channelinfo__rightside img:nth-child(1), .channelmain__menu li:nth-child(n+5),
@@ -18,6 +33,9 @@ a{
    text-decoration: none;
 }
 
+.main{
+   width: 100%;
+}
 
 .red{
    color: red;
@@ -64,7 +82,6 @@ a{
    font-size: 16px;
    line-height: 20px;
    color: #19202C;
-   letter-spacing: 0.3px;
 }
 
 .header__leftside__logoYT{
@@ -77,8 +94,7 @@ a{
 }
 
 .channelbackground img{
-
-   height: 100px;
+   width: 100%;
 }
 
 .channelinfo{ 
@@ -103,8 +119,12 @@ a{
    justify-content: space-around;
 }
 
-.channelmain__menu ul li a:first-child{
+.channelmain__menu li:first-child a{
    color: red;
+}
+
+.channelmain__menu li:first-child{
+   border-bottom: 2px red solid;
 }
 
 
@@ -127,7 +147,6 @@ a{
    line-height: 25px;
    color: #19202C;
    margin-top: -1px;
-   letter-spacing: 0.4px;
 }
 
 .channelinfo__subscribecount{
@@ -227,7 +246,6 @@ a{
    font-size: 16px;
    font-weight: bold;
    margin: 6px 0;
-   letter-spacing: 0.3px;
 }
 
 .bottomvideos__videoitem__info{

@@ -1,3 +1,25 @@
+@font-face {
+   font-family: "Mulish"; 
+   src: url("/fonts/Mulish/static/Mulish-ExtraLight.ttf") format("truetype"); 
+   font-style: normal; 
+   font-weight: 100; 
+} 
+
+@font-face {
+   font-family: "Mulish"; 
+   src: url("/fonts/Mulish/static/Mulish-Medium.ttf") format("truetype"); 
+   font-style: normal; 
+   font-weight: 400; 
+} 
+
+@font-face {
+   font-family: "Mulish"; 
+   src: url("/fonts/Mulish/static/Mulish-Bold.ttf") format("truetype"); 
+   font-style: normal; 
+   font-weight: 700; 
+} 
+
+
 .recommended, .recommendedchannel, .sidebar__subspr, .header__leftside__menu,
 .header__center input, .header__loadvideo, .header__settings, .header__notifications, .favchannel__topic,
 .favchannel__videos div:nth-child(n+5), .favchannel__videoitem__cover img:first-child{
@@ -39,6 +61,7 @@ img{
 
 .header{
    display: flex;
+   justify-content: space-evenly;
    height: 60px;
 }
 
@@ -52,7 +75,7 @@ img{
 
 .header__useravatar img{
    width: 70%;
-   margin: 9px 0px 0px 3.5px;
+   margin: 9px 3.5px 0px 3.5px;
 }
 
 .sidebar ul:nth-child(1) li:nth-child(n+5){
@@ -132,19 +155,26 @@ img{
 }
 
 .favchannel__videoitem__name{
-   font-size: 16px;
-   font-weight: bold;
    margin: 5px 0;
-   letter-spacing: 0.3px;
+   font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 20px;
+   color: #19202C;
 }
 
 .favchannel__videoitem__info{
    display: flex;
-    justify-content: space-between;
+   justify-content: space-between;
 }
 
 .favchannel__videoitem__info > p{
+   font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 400;
    font-size: 13px;
+   line-height: 16px;
    color: #C2C2C2;
 }
 
