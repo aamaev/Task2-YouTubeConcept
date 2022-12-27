@@ -25,6 +25,10 @@ a{
     color: #898989;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .red{
     color: red;
 }

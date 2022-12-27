@@ -27,6 +27,10 @@ a{
     font-weight: 100;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .media{
     display: none;
 }

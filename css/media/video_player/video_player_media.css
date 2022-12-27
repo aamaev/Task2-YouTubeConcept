@@ -47,6 +47,10 @@ img{
    max-width: 100%;
 }
 
+body{
+   overflow-x: hidden;
+}
+
 .subscribe_media_button{
    color: red;
    font-style: normal;

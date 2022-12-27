@@ -42,6 +42,10 @@ img{
    max-width: 100%;
 }
 
+body{
+   overflow-x: hidden;
+}
+
 .red{
    color: red;
    font-weight: 400;
